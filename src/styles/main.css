@@ -34,3 +34,29 @@ body {
   width: 100px;
   cursor: pointer;
 }
+
+/*========== HeroSection ==========*/
+.hero-section {
+  padding: 30px 50px;
+}
+
+.images-container {
+  display: flex;
+  justify-content: center;
+}
+
+.random-images {
+  min-width: 310px;
+}
+
+.hero-section-text-container {
+  padding-top: 30px;
+}
+
+.hero-section-text-container > h1 {
+  font-size: 2.2rem;
+}
+
+.hero-section-text-container > p {
+  font-size: 1.2rem;
+}
