@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700;900&display=swap');
+
+:root {
+  --primary-navbar-background: #fff;
+  --primary-body-background: #fff;
+  --primary-navbar-box-shadow: #777;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.5;
+  background: var(--primary-body-background);
+}
+
+/*========== Navbar ==========*/
+.header {
+  background: var(--primary-navbar-background);
+  height: 80px;
+  box-shadow: 0 8px 10px -10px var(--primary-navbar-box-shadow);
+}
+
+.logo {
+  padding: 25px 50px;
+}
+
+.airbnb-logo {
+  width: 100px;
+  cursor: pointer;
+}
