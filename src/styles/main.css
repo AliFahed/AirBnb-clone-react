@@ -60,3 +60,58 @@ body {
 .hero-section-text-container > p {
   font-size: 1.2rem;
 }
+
+/*========== Card ==========*/
+.cards-container {
+  display: flex;
+  justify-content: center;
+  padding: 25px 50px;
+  gap: 10px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  cursor: pointer;
+  width: 230px;
+}
+
+.card-status {
+  position: absolute;
+  margin-top: -345px;
+  margin-left: 10px;
+  background: #fff;
+  padding: 3px 7px;
+  border-radius: 5px;
+}
+
+.card-img {
+  width: 230px;
+}
+
+.card-rating {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.star-icon {
+  width: 25px;
+}
+
+/*========== Cards Section in App.js ==========*/
+.cards-section {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 925px) {
+  .cards-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 50px;
+  }
+}
